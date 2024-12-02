@@ -20,6 +20,9 @@ class Program
         int valid = 0;
         for (int r = 0; r < list.Count; r++)
         {
+            // Part 01
+            // valid += IsValid(list[r]) ? 1 : 0;
+            // Part 02
             valid += IsValidWrapper(list[r]) ? 1 : 0;
         }
         Console.WriteLine(valid);
