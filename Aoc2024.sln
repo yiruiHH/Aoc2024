@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Red-NosedReports", "Day2\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MullItOver", "Day3\MullItOver\MullItOver.csproj", "{1A63C490-8098-471D-9305-4F882BB7BFC5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day4", "Day4", "{B3D81116-02E8-48FC-9563-5C351B6E74E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeresSearch", "Day4\CeresSearch\CeresSearch.csproj", "{8E70FE40-EF7C-44AF-A2CF-C765E3127F5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,12 @@ Global
 		{1A63C490-8098-471D-9305-4F882BB7BFC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A63C490-8098-471D-9305-4F882BB7BFC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A63C490-8098-471D-9305-4F882BB7BFC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E70FE40-EF7C-44AF-A2CF-C765E3127F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E70FE40-EF7C-44AF-A2CF-C765E3127F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E70FE40-EF7C-44AF-A2CF-C765E3127F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E70FE40-EF7C-44AF-A2CF-C765E3127F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E70FE40-EF7C-44AF-A2CF-C765E3127F5D} = {B3D81116-02E8-48FC-9563-5C351B6E74E8}
 	EndGlobalSection
 EndGlobal
